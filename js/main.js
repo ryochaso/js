@@ -3,8 +3,7 @@
     console.log('hello world from main JS') ; //;は命令の最後にいれる
     console.log('hello\n world from\t JS');// \n改行 \t タブ
 
-    console.log('hello' + 'world')
-
+    console.log('hello' + 'world');
     console.log(10 + 5);
     console.log(10 - 5);
     console.log(10 * 5);
@@ -39,9 +38,9 @@ console.log(value * 10);
 
 let num = 100;
 
-console.log(num += 100); // price = price + 100;
+console.log(num += 100); // num = num + 100;
 
-console.log(num++); // price +-= 1;
+console.log(num++); // num += 1;
 
 console.log(num) //201
 
